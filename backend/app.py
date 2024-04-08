@@ -9,7 +9,7 @@ load_dotenv()
 my_secret_key = os.getenv("SECRET_KEY")
 
 
-os.environ["OPENAI_API_KEY"] = my_secret_key
+os.environ["OPENAI_API_KEY"] = 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
 
 bot = App()
 
